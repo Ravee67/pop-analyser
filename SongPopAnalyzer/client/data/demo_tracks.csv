@@ -1,0 +1,16 @@
+track_id,track_name,artist,album,release_date,genre,popularity,duration_ms,tempo,danceability,energy,acousticness,instrumentalness,valence
+1,Neon Nights,The Skyline,City Lights,2023-06-14,Electropop,78,214000,118.5,0.78,0.72,0.12,0.00,0.66
+2,Blue Whisper,Luna Vale,Midnight Tides,2021-11-02,Downtempo,45,185000,72.0,0.42,0.28,0.57,0.00,0.34
+3,Ride the Waves,Harbor Band,Open Sea,2019-07-19,Indie Rock,63,241000,134.2,0.65,0.81,0.03,0.00,0.71
+4,Sunrise Loop,Electron Drift,Modules,2024-02-01,Ambient,30,360000,60.0,0.15,0.18,0.88,0.45,0.22
+5,Heartbeat (feat. Ava),Skyline & Ava,Heartbeat EP,2022-09-09,Pop,88,198000,105.3,0.84,0.76,0.09,0.00,0.80
+6,Rust & Rain,Old Oak,Rusty Roads,2018-03-23,Folk,22,210500,95.0,0.34,0.26,0.64,0.00,0.28
+7,Midnight Drive,The Commuters,After Hours,2020-12-11,Synthwave,55,227000,116.0,0.71,0.68,0.18,0.00,0.59
+8,Paper Planes (Acoustic),M. Rivers,Live Sessions,2017-05-05,Acoustic,49,164000,88.5,0.38,0.22,0.72,0.00,0.41
+9,Quantum Leap,Neon Circuit,Future Tones,2025-01-10,Electronic,92,176000,126.8,0.90,0.88,0.02,0.00,0.84
+10,Slow Ember,Willow & Stone,Embers,2016-10-31,Indie,18,253000,68.4,0.21,0.14,0.79,0.00,0.12
+11,Chasing Clouds,Alt Route,Scenic Views,2023-04-20,Alternative,60,200000,123.0,0.62,0.58,0.25,0.00,0.52
+12,Strings of Dawn,Celeste Quartet,First Light,2021-01-15,Classical Crossover,35,420000,72.3,0.09,0.12,0.85,0.50,0.18
+13,Voyager (Instrumental),Orbit Ensemble,Spacewalk,2024-08-08,Instrumental,40,305000,98.7,0.20,0.30,0.65,0.65,0.27
+14,Retro Love,The Vinyls,Greatest Hits,1992-06-22,Pop,70,190000,102.4,0.81,0.69,0.10,0.00,0.75
+15,Night Bloom,Lila Moss,Garden Tales,2022-05-30,Chill,52,172500,90.1,0.56,0.48,0.34,0.00,0.49

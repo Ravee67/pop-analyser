@@ -1,0 +1,141 @@
+🎯 Prompt: Spotify Song Popularity Analysis Web Application (Full Stack)
+
+Goal:
+Develop a Spotify Song Popularity Analysis web application that allows users to upload their own CSV dataset (e.g., Spotify song data) and automatically generate interactive visual insights such as popularity trends, top songs, correlations, and genre-based analysis.
+
+🔧 Functional Requirements
+🖥️ Frontend
+
+Build the frontend using React.js + Tailwind CSS + Chart.js / Recharts / Plotly.js for interactive charts.
+
+UI should have:
+
+Home Page: Welcome banner + upload CSV button.
+
+Dashboard Page: Displays dynamic charts after upload.
+
+Sections:
+
+Dataset Overview: Show uploaded CSV info (rows, columns, sample preview).
+
+Popularity Distribution: Histogram of song popularity.
+
+Top 10 Songs: Table or bar chart of highest popularity.
+
+Feature Correlation Heatmap: Visual correlation among popularity, danceability, energy, acousticness.
+
+Popularity Over Years: Line chart showing average popularity trends by release year.
+
+Popularity by Genre: Bar chart ranking top 10 genres.
+
+Option to download analyzed data or export charts as .png.
+
+⚙️ Backend
+
+Use Python (Flask / FastAPI) for backend API.
+
+Endpoints:
+
+POST /upload: Accept CSV file upload, read and validate columns.
+
+GET /summary: Return dataset info (rows, columns, missing values).
+
+GET /analysis: Return computed analytics (top songs, popularity by year/genre).
+
+GET /visuals: Generate and return chart data as JSON.
+
+Use Pandas for data processing and Seaborn / Matplotlib / Plotly for generating visual data.
+
+Implement basic error handling (invalid CSV, missing columns, wrong formats).
+
+🧠 Machine Learning / Analytics Model
+
+Include lightweight ML or statistical analysis:
+
+Compute correlation between audio features and popularity.
+
+Identify top-performing genres over time.
+
+Predict trend (simple regression) for future popularity based on historical data.
+
+Allow analysis of any uploaded CSV, not just Spotify — the model should dynamically adjust to detect numeric columns.
+
+💾 Database (Optional)
+
+Use SQLite or MongoDB to store:
+
+Upload history
+
+User sessions
+
+Past analyses
+
+📊 Visualization Requirements
+
+Use interactive and responsive charts:
+
+Histogram: Popularity distribution
+
+Bar Chart: Top 10 songs or genres
+
+Line Chart: Popularity trend over years
+
+Heatmap: Feature correlation
+
+Pie Chart (optional): Distribution by genre or artist
+
+🚀 Tech Stack Summary
+Component	Technology
+Frontend	React.js + Tailwind CSS + Recharts / Chart.js
+Backend	Python + Flask / FastAPI
+Data Handling	Pandas + NumPy
+Visualization (Backend)	Seaborn / Matplotlib / Plotly
+Storage	Local CSV / SQLite / MongoDB
+Model Deployment (optional)	Scikit-learn regression or statsmodels
+Hosting	Render / Vercel / Railway (for full-stack deployment)
+⚡ Bonus Features (Optional)
+
+🌐 Real-time trending songs via Spotify API integration.
+
+💾 User login to save analysis history.
+
+📈 Predictive insights: “Will this song likely trend?” based on existing patterns.
+
+📤 Export report as PDF or Excel.
+
+🧩 Example User Flow
+
+User visits homepage → Uploads CSV (e.g., spotify_data.csv).
+
+Backend validates + analyzes dataset.
+
+Dashboard displays:
+
+Popularity distribution
+
+Top 10 songs
+
+Correlation heatmap
+
+Popularity trends by year
+
+Top 10 genres
+
+User can export charts or results as PDF/PNG.
+
+🗂️ Sample Dataset Columns
+track_name, artist_name, genre, popularity, danceability, energy, acousticness, release_date
+
+✨ Expected Output
+
+An interactive web dashboard where users can:
+
+Upload any music dataset
+
+Instantly visualize and compare song trends
+
+Identify top songs, artists, and genres
+
+Observe yearly and feature correlations
+
+Download their analysis report
